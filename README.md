@@ -19,11 +19,15 @@ Developed as part of the **2nd Year - Linear Algebra Course**, this tool helps s
 - Specify the **number of equations (rows)** and **variables (columns)**.
 - Enter the coefficients and constants as space-separated values in a text box.
 - **Example Input:**
+```
 2 1 -1 8 -3 -1 2 -11
+```
 
 This corresponds to the system:
+```
 2x + y - z = 8
 -3x - y + 2z = -1
+```
 
 ### **Processing**
 - The program applies **Gaussian Elimination** to manipulate the augmented matrix.
