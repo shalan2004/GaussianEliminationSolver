@@ -1,11 +1,11 @@
-# **LinearSolver**
+# **Gaussian Elimination Solver**
 
 A Python-based graphical application designed to solve systems of linear equations using **Gaussian Elimination**. Featuring an intuitive **Tkinter** interface, this project offers a step-by-step visualization of the solution process to enhance understanding of linear algebra concepts.
 
-## 📚 **Course Context**
+## **Course Context**
 Developed as part of the **2nd Year - Linear Algebra Course**, this tool helps students grasp the mechanics of Gaussian Elimination by providing an interactive learning experience.
 
-## ✨ **Features**
+## **Features**
 - **Step-by-step Gaussian Elimination:** Observe each transformation in the augmented matrix.
 - **User-friendly Tkinter GUI:** Easily input equations and constants.
 - **Supports multiple solution cases:**
@@ -14,29 +14,22 @@ Developed as part of the **2nd Year - Linear Algebra Course**, this tool helps s
   - No solution.
 - **Real-time visualization:** Displays matrix transformations at every step.
 
-## 🔍 **How It Works**
-### 1️⃣ **Input**
+## **How It Works**
+### **Input**
 - Specify the **number of equations (rows)** and **variables (columns)**.
 - Enter the coefficients and constants as space-separated values in a text box.
 - **Example Input:**
 2 1 -1 8 -3 -1 2 -11
 
-css
-Copy
-Edit
 This corresponds to the system:
 2x + y - z = 8
 -3x - y + 2z = -1
 
-markdown
-Copy
-Edit
-
-### 2️⃣ **Processing**
+### **Processing**
 - The program applies **Gaussian Elimination** to manipulate the augmented matrix.
 - Row operations systematically reduce the matrix to **row echelon form**.
 
-### 3️⃣ **Output**
+### **Output**
 - The program presents:
 1. **Sequential transformations** of the augmented matrix.
 2. The final matrix in **row echelon form**.
