@@ -1,46 +1,47 @@
-# **LinearSolver**  
-A Python GUI application for solving systems of linear equations using **Gaussian Elimination**. This project features an intuitive **Tkinter** interface and provides step-by-step visualization of the solution process.  
+# **LinearSolver**
 
-2nd Year - Linear Algebra course
+A Python-based graphical application designed to solve systems of linear equations using **Gaussian Elimination**. Featuring an intuitive **Tkinter** interface, this project offers a step-by-step visualization of the solution process to enhance understanding of linear algebra concepts.
 
+## 📚 **Course Context**
+Developed as part of the **2nd Year - Linear Algebra Course**, this tool helps students grasp the mechanics of Gaussian Elimination by providing an interactive learning experience.
 
-## **Features**  
-- **Step-by-step Gaussian Elimination**: View each transformation of the augmented matrix.  
-- **Interactive Tkinter GUI**: User-friendly interface for inputting equations and constants.  
-- Handles cases with:  
-  - **Unique solutions**.  
-  - **Infinite solutions**.  
-  - **No solution**.  
-- Displays the augmented matrix transformation at every step.  
+## ✨ **Features**
+- **Step-by-step Gaussian Elimination:** Observe each transformation in the augmented matrix.
+- **User-friendly Tkinter GUI:** Easily input equations and constants.
+- **Supports multiple solution cases:**
+  - Unique solutions.
+  - Infinite solutions.
+  - No solution.
+- **Real-time visualization:** Displays matrix transformations at every step.
 
-## **How the Program Works**  
-
-### **1. Input**  
-- Enter the **number of rows** (equations) and **columns** (variables).  
-- Provide the coefficients and constants for the equations in a single text box:  
-  - Each row corresponds to one equation.  
-  - Separate the coefficients of variables with spaces, and include the constant at the end of the row.  
-- **Example Input**:
-```
+## 🔍 **How It Works**
+### 1️⃣ **Input**
+- Specify the **number of equations (rows)** and **variables (columns)**.
+- Enter the coefficients and constants as space-separated values in a text box.
+- **Example Input:**
 2 1 -1 8 -3 -1 2 -11
-```
-- **This represents the system of equations**:
-```
-2x + y - z = 8  
+
+css
+Copy
+Edit
+This corresponds to the system:
+2x + y - z = 8
 -3x - y + 2z = -1
-```
 
-### **2. Process**  
-- The program applies **Gaussian Elimination** to solve the system of equations.  
-- It performs row operations to convert the augmented matrix to **row echelon form**.  
+markdown
+Copy
+Edit
 
-### **3. Output**  
-- The program displays:  
-1. **Step-by-step transformations** of the augmented matrix.  
-2. The final matrix in **row echelon form**.  
-3. The solution to the system, if it exists, in the format:  
+### 2️⃣ **Processing**
+- The program applies **Gaussian Elimination** to manipulate the augmented matrix.
+- Row operations systematically reduce the matrix to **row echelon form**.
+
+### 3️⃣ **Output**
+- The program presents:
+1. **Sequential transformations** of the augmented matrix.
+2. The final matrix in **row echelon form**.
+3. The computed solution in the format:
    ```
    x1 = value1, x2 = value2, ..., xn = valueN
    ```
-- If there are **infinite solutions** or **no solution**, the program explicitly states it.
-
+4. Clear messages for **infinite solutions** or **no solution** cases.
