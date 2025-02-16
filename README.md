@@ -20,13 +20,16 @@ Developed as part of the **2nd Year - Linear Algebra Course**, this tool helps s
 - Enter the coefficients and constants as space-separated values in a text box.
 - **Example Input:**
 ```
-2 1 -1 8 -3 -1 2 -11
+2 1 -1 8
+-3 -1 2 -11
+-2 1 2 -3
 ```
 
 This corresponds to the system:
 ```
 2x + y - z = 8
--3x - y + 2z = -1
+-3x - y + 2z = -11
+-2x + y + 2z = -3
 ```
 
 ### **Processing**
